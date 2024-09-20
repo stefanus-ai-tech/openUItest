@@ -1,0 +1,1 @@
+/usr/bin/c++ -O3 -DNDEBUG CMakeFiles/backend.dir/main.cpp.o -o backend  -Wl,-rpath,/home/adri/Documents/openUItest/backend/build/external/cpr/cpr:/home/adri/Documents/openUItest/backend/build/_deps/curl-build/lib external/cpr/cpr/libcpr.so.1.11.0 /usr/lib/x86_64-linux-gnu/libpq.so -lpqxx _deps/curl-build/lib/libcurl.so.4.8.0

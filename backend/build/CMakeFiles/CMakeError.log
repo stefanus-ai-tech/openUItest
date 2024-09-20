@@ -1,0 +1,327 @@
+Performing Test HAVE_FSETXATTR_6 failed with the following output:
+Change Dir: '/home/adri/Documents/openUItest/backend/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /home/adri/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_5a770/fast
+/usr/bin/gmake  -f CMakeFiles/cmTC_5a770.dir/build.make CMakeFiles/cmTC_5a770.dir/build
+gmake[1]: Entering directory '/home/adri/Documents/openUItest/backend/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5a770.dir/CurlTests.c.o
+/usr/bin/cc   -W -Wall -pedantic -Wbad-function-cast -Wconversion -Winline -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-long-long -Wno-multichar -Wpointer-arith -Wshadow -Wsign-compare -Wundef -Wunused -Wwrite-strings -Waddress -Wattributes -Wcast-align -Wdeclaration-after-statement -Wdiv-by-zero -Wempty-body -Wendif-labels -Wfloat-equal -Wformat-security -Wignored-qualifiers -Wmissing-field-initializers -Wmissing-noreturn -Wno-format-nonliteral -Wno-system-headers -Wold-style-definition -Wredundant-decls -Wsign-conversion -Wno-error=sign-conversion -Wstrict-prototypes -Wtype-limits -Wunreachable-code -Wunused-parameter -Wvla -Wclobbered -Wmissing-parameter-type -Wold-style-declaration -Wstrict-aliasing=3 -Wtrampolines -Wformat=2 -Warray-bounds=2 -ftree-vrp -Wduplicated-cond -Wnull-dereference -fdelete-null-pointer-checks -Wshift-negative-value -Wshift-overflow=2 -Walloc-zero -Wduplicated-branches -Wformat-overflow=2 -Wformat-truncation=2 -Wimplicit-fallthrough -Wrestrict -Warith-conversion -Wdouble-promotion -Wenum-conversion -Wpragmas -Wunused-const-variable -DHAVE_FSETXATTR_6  -DHAVE_SYS_WAIT_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_PARAM_H -DHAVE_SYS_POLL_H -DHAVE_SYS_RESOURCE_H -DHAVE_SYS_SELECT_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TIME_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UN_H -DHAVE_SYS_XATTR_H -DHAVE_ARPA_INET_H -DHAVE_FCNTL_H -DHAVE_IFADDRS_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_NET_IF_H -DHAVE_NETDB_H -DHAVE_NETINET_IN_H -DHAVE_NETINET_TCP_H -DHAVE_NETINET_UDP_H -DHAVE_POLL_H -DHAVE_PWD_H -DHAVE_STDATOMIC_H -DHAVE_STDBOOL_H -DHAVE_STRINGS_H -DHAVE_TERMIO_H -DHAVE_TERMIOS_H -DHAVE_UNISTD_H -DHAVE_UTIME_H -o CMakeFiles/cmTC_5a770.dir/CurlTests.c.o -c /home/adri/Documents/openUItest/backend/build/_deps/curl-src/CMake/CurlTests.c
+/home/adri/Documents/openUItest/backend/build/_deps/curl-src/CMake/CurlTests.c: In function ‘main’:
+/home/adri/Documents/openUItest/backend/build/_deps/curl-src/CMake/CurlTests.c:356:3: error: too many arguments to function ‘fsetxattr’
+  356 |   fsetxattr(0, 0, 0, 0, 0, 0);
+      |   ^~~~~~~~~
+In file included from /home/adri/Documents/openUItest/backend/build/_deps/curl-src/CMake/CurlTests.c:353:
+/usr/include/x86_64-linux-gnu/sys/xattr.h:54:12: note: declared here
+   54 | extern int fsetxattr (int __fd, const char *__name, const void *__value,
+      |            ^~~~~~~~~
+gmake[1]: *** [CMakeFiles/cmTC_5a770.dir/build.make:78: CMakeFiles/cmTC_5a770.dir/CurlTests.c.o] Error 1
+gmake[1]: Leaving directory '/home/adri/Documents/openUItest/backend/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_5a770/fast] Error 2
+
+
+Performing Test HAVE_IOCTLSOCKET failed with the following output:
+Change Dir: '/home/adri/Documents/openUItest/backend/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /home/adri/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_d17e0/fast
+/usr/bin/gmake  -f CMakeFiles/cmTC_d17e0.dir/build.make CMakeFiles/cmTC_d17e0.dir/build
+gmake[1]: Entering directory '/home/adri/Documents/openUItest/backend/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d17e0.dir/CurlTests.c.o
+/usr/bin/cc   -W -Wall -pedantic -Wbad-function-cast -Wconversion -Winline -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-long-long -Wno-multichar -Wpointer-arith -Wshadow -Wsign-compare -Wundef -Wunused -Wwrite-strings -Waddress -Wattributes -Wcast-align -Wdeclaration-after-statement -Wdiv-by-zero -Wempty-body -Wendif-labels -Wfloat-equal -Wformat-security -Wignored-qualifiers -Wmissing-field-initializers -Wmissing-noreturn -Wno-format-nonliteral -Wno-system-headers -Wold-style-definition -Wredundant-decls -Wsign-conversion -Wno-error=sign-conversion -Wstrict-prototypes -Wtype-limits -Wunreachable-code -Wunused-parameter -Wvla -Wclobbered -Wmissing-parameter-type -Wold-style-declaration -Wstrict-aliasing=3 -Wtrampolines -Wformat=2 -Warray-bounds=2 -ftree-vrp -Wduplicated-cond -Wnull-dereference -fdelete-null-pointer-checks -Wshift-negative-value -Wshift-overflow=2 -Walloc-zero -Wduplicated-branches -Wformat-overflow=2 -Wformat-truncation=2 -Wimplicit-fallthrough -Wrestrict -Warith-conversion -Wdouble-promotion -Wenum-conversion -Wpragmas -Wunused-const-variable -DHAVE_IOCTLSOCKET  -DHAVE_SYS_WAIT_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_PARAM_H -DHAVE_SYS_POLL_H -DHAVE_SYS_RESOURCE_H -DHAVE_SYS_SELECT_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TIME_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UN_H -DHAVE_SYS_XATTR_H -DHAVE_ARPA_INET_H -DHAVE_FCNTL_H -DHAVE_IFADDRS_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_NET_IF_H -DHAVE_NETDB_H -DHAVE_NETINET_IN_H -DHAVE_NETINET_TCP_H -DHAVE_NETINET_UDP_H -DHAVE_POLL_H -DHAVE_PWD_H -DHAVE_STDATOMIC_H -DHAVE_STDBOOL_H -DHAVE_STRINGS_H -DHAVE_TERMIO_H -DHAVE_TERMIOS_H -DHAVE_UNISTD_H -DHAVE_UTIME_H -o CMakeFiles/cmTC_d17e0.dir/CurlTests.c.o -c /home/adri/Documents/openUItest/backend/build/_deps/curl-src/CMake/CurlTests.c
+/home/adri/Documents/openUItest/backend/build/_deps/curl-src/CMake/CurlTests.c: In function ‘main’:
+/home/adri/Documents/openUItest/backend/build/_deps/curl-src/CMake/CurlTests.c:177:25: warning: implicit declaration of function ‘ioctlsocket’ [-Wimplicit-function-declaration]
+  177 |   unsigned long flags = ioctlsocket(socket, FIONBIO, &flags);
+      |                         ^~~~~~~~~~~
+/home/adri/Documents/openUItest/backend/build/_deps/curl-src/CMake/CurlTests.c:177:25: warning: nested extern declaration of ‘ioctlsocket’ [-Wnested-externs]
+/home/adri/Documents/openUItest/backend/build/_deps/curl-src/CMake/CurlTests.c:177:45: error: ‘FIONBIO’ undeclared (first use in this function)
+  177 |   unsigned long flags = ioctlsocket(socket, FIONBIO, &flags);
+      |                                             ^~~~~~~
+/home/adri/Documents/openUItest/backend/build/_deps/curl-src/CMake/CurlTests.c:177:45: note: each undeclared identifier is reported only once for each function it appears in
+gmake[1]: *** [CMakeFiles/cmTC_d17e0.dir/build.make:78: CMakeFiles/cmTC_d17e0.dir/CurlTests.c.o] Error 1
+gmake[1]: Leaving directory '/home/adri/Documents/openUItest/backend/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_d17e0/fast] Error 2
+
+
+Performing Test HAVE_IOCTLSOCKET_CAMEL failed with the following output:
+Change Dir: '/home/adri/Documents/openUItest/backend/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /home/adri/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_483e4/fast
+/usr/bin/gmake  -f CMakeFiles/cmTC_483e4.dir/build.make CMakeFiles/cmTC_483e4.dir/build
+gmake[1]: Entering directory '/home/adri/Documents/openUItest/backend/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_483e4.dir/CurlTests.c.o
+/usr/bin/cc   -W -Wall -pedantic -Wbad-function-cast -Wconversion -Winline -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-long-long -Wno-multichar -Wpointer-arith -Wshadow -Wsign-compare -Wundef -Wunused -Wwrite-strings -Waddress -Wattributes -Wcast-align -Wdeclaration-after-statement -Wdiv-by-zero -Wempty-body -Wendif-labels -Wfloat-equal -Wformat-security -Wignored-qualifiers -Wmissing-field-initializers -Wmissing-noreturn -Wno-format-nonliteral -Wno-system-headers -Wold-style-definition -Wredundant-decls -Wsign-conversion -Wno-error=sign-conversion -Wstrict-prototypes -Wtype-limits -Wunreachable-code -Wunused-parameter -Wvla -Wclobbered -Wmissing-parameter-type -Wold-style-declaration -Wstrict-aliasing=3 -Wtrampolines -Wformat=2 -Warray-bounds=2 -ftree-vrp -Wduplicated-cond -Wnull-dereference -fdelete-null-pointer-checks -Wshift-negative-value -Wshift-overflow=2 -Walloc-zero -Wduplicated-branches -Wformat-overflow=2 -Wformat-truncation=2 -Wimplicit-fallthrough -Wrestrict -Warith-conversion -Wdouble-promotion -Wenum-conversion -Wpragmas -Wunused-const-variable -DHAVE_IOCTLSOCKET_CAMEL  -DHAVE_SYS_WAIT_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_PARAM_H -DHAVE_SYS_POLL_H -DHAVE_SYS_RESOURCE_H -DHAVE_SYS_SELECT_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TIME_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UN_H -DHAVE_SYS_XATTR_H -DHAVE_ARPA_INET_H -DHAVE_FCNTL_H -DHAVE_IFADDRS_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_NET_IF_H -DHAVE_NETDB_H -DHAVE_NETINET_IN_H -DHAVE_NETINET_TCP_H -DHAVE_NETINET_UDP_H -DHAVE_POLL_H -DHAVE_PWD_H -DHAVE_STDATOMIC_H -DHAVE_STDBOOL_H -DHAVE_STRINGS_H -DHAVE_TERMIO_H -DHAVE_TERMIOS_H -DHAVE_UNISTD_H -DHAVE_UTIME_H -o CMakeFiles/cmTC_483e4.dir/CurlTests.c.o -c /home/adri/Documents/openUItest/backend/build/_deps/curl-src/CMake/CurlTests.c
+/home/adri/Documents/openUItest/backend/build/_deps/curl-src/CMake/CurlTests.c: In function ‘main’:
+/home/adri/Documents/openUItest/backend/build/_deps/curl-src/CMake/CurlTests.c:195:11: warning: implicit declaration of function ‘IoctlSocket’ [-Wimplicit-function-declaration]
+  195 |   if(0 != IoctlSocket(0, 0, 0))
+      |           ^~~~~~~~~~~
+/home/adri/Documents/openUItest/backend/build/_deps/curl-src/CMake/CurlTests.c:195:11: warning: nested extern declaration of ‘IoctlSocket’ [-Wnested-externs]
+Linking C executable cmTC_483e4
+/home/adri/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_483e4.dir/link.txt --verbose=1
+/usr/bin/cc   -W -Wall -pedantic -Wbad-function-cast -Wconversion -Winline -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-long-long -Wno-multichar -Wpointer-arith -Wshadow -Wsign-compare -Wundef -Wunused -Wwrite-strings -Waddress -Wattributes -Wcast-align -Wdeclaration-after-statement -Wdiv-by-zero -Wempty-body -Wendif-labels -Wfloat-equal -Wformat-security -Wignored-qualifiers -Wmissing-field-initializers -Wmissing-noreturn -Wno-format-nonliteral -Wno-system-headers -Wold-style-definition -Wredundant-decls -Wsign-conversion -Wno-error=sign-conversion -Wstrict-prototypes -Wtype-limits -Wunreachable-code -Wunused-parameter -Wvla -Wclobbered -Wmissing-parameter-type -Wold-style-declaration -Wstrict-aliasing=3 -Wtrampolines -Wformat=2 -Warray-bounds=2 -ftree-vrp -Wduplicated-cond -Wnull-dereference -fdelete-null-pointer-checks -Wshift-negative-value -Wshift-overflow=2 -Walloc-zero -Wduplicated-branches -Wformat-overflow=2 -Wformat-truncation=2 -Wimplicit-fallthrough -Wrestrict -Warith-conversion -Wdouble-promotion -Wenum-conversion -Wpragmas -Wunused-const-variable -DHAVE_IOCTLSOCKET_CAMEL  -DHAVE_SYS_WAIT_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_PARAM_H -DHAVE_SYS_POLL_H -DHAVE_SYS_RESOURCE_H -DHAVE_SYS_SELECT_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TIME_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UN_H -DHAVE_SYS_XATTR_H -DHAVE_ARPA_INET_H -DHAVE_FCNTL_H -DHAVE_IFADDRS_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_NET_IF_H -DHAVE_NETDB_H -DHAVE_NETINET_IN_H -DHAVE_NETINET_TCP_H -DHAVE_NETINET_UDP_H -DHAVE_POLL_H -DHAVE_PWD_H -DHAVE_STDATOMIC_H -DHAVE_STDBOOL_H -DHAVE_STRINGS_H -DHAVE_TERMIO_H -DHAVE_TERMIOS_H -DHAVE_UNISTD_H -DHAVE_UTIME_H CMakeFiles/cmTC_483e4.dir/CurlTests.c.o -o cmTC_483e4
+/usr/bin/ld: CMakeFiles/cmTC_483e4.dir/CurlTests.c.o: in function `main':
+CurlTests.c:(.text+0x1d): undefined reference to `IoctlSocket'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_483e4.dir/build.make:99: cmTC_483e4] Error 1
+gmake[1]: Leaving directory '/home/adri/Documents/openUItest/backend/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_483e4/fast] Error 2
+
+
+Performing Test HAVE_IOCTLSOCKET_CAMEL_FIONBIO failed with the following output:
+Change Dir: '/home/adri/Documents/openUItest/backend/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /home/adri/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_6c1e5/fast
+/usr/bin/gmake  -f CMakeFiles/cmTC_6c1e5.dir/build.make CMakeFiles/cmTC_6c1e5.dir/build
+gmake[1]: Entering directory '/home/adri/Documents/openUItest/backend/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6c1e5.dir/CurlTests.c.o
+/usr/bin/cc   -W -Wall -pedantic -Wbad-function-cast -Wconversion -Winline -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-long-long -Wno-multichar -Wpointer-arith -Wshadow -Wsign-compare -Wundef -Wunused -Wwrite-strings -Waddress -Wattributes -Wcast-align -Wdeclaration-after-statement -Wdiv-by-zero -Wempty-body -Wendif-labels -Wfloat-equal -Wformat-security -Wignored-qualifiers -Wmissing-field-initializers -Wmissing-noreturn -Wno-format-nonliteral -Wno-system-headers -Wold-style-definition -Wredundant-decls -Wsign-conversion -Wno-error=sign-conversion -Wstrict-prototypes -Wtype-limits -Wunreachable-code -Wunused-parameter -Wvla -Wclobbered -Wmissing-parameter-type -Wold-style-declaration -Wstrict-aliasing=3 -Wtrampolines -Wformat=2 -Warray-bounds=2 -ftree-vrp -Wduplicated-cond -Wnull-dereference -fdelete-null-pointer-checks -Wshift-negative-value -Wshift-overflow=2 -Walloc-zero -Wduplicated-branches -Wformat-overflow=2 -Wformat-truncation=2 -Wimplicit-fallthrough -Wrestrict -Warith-conversion -Wdouble-promotion -Wenum-conversion -Wpragmas -Wunused-const-variable -DHAVE_IOCTLSOCKET_CAMEL_FIONBIO  -DHAVE_SYS_WAIT_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_PARAM_H -DHAVE_SYS_POLL_H -DHAVE_SYS_RESOURCE_H -DHAVE_SYS_SELECT_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TIME_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UN_H -DHAVE_SYS_XATTR_H -DHAVE_ARPA_INET_H -DHAVE_FCNTL_H -DHAVE_IFADDRS_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_NET_IF_H -DHAVE_NETDB_H -DHAVE_NETINET_IN_H -DHAVE_NETINET_TCP_H -DHAVE_NETINET_UDP_H -DHAVE_POLL_H -DHAVE_PWD_H -DHAVE_STDATOMIC_H -DHAVE_STDBOOL_H -DHAVE_STRINGS_H -DHAVE_TERMIO_H -DHAVE_TERMIOS_H -DHAVE_UNISTD_H -DHAVE_UTIME_H -o CMakeFiles/cmTC_6c1e5.dir/CurlTests.c.o -c /home/adri/Documents/openUItest/backend/build/_deps/curl-src/CMake/CurlTests.c
+/home/adri/Documents/openUItest/backend/build/_deps/curl-src/CMake/CurlTests.c: In function ‘main’:
+/home/adri/Documents/openUItest/backend/build/_deps/curl-src/CMake/CurlTests.c:214:11: warning: implicit declaration of function ‘IoctlSocket’ [-Wimplicit-function-declaration]
+  214 |   if(0 != IoctlSocket(0, FIONBIO, &flags))
+      |           ^~~~~~~~~~~
+/home/adri/Documents/openUItest/backend/build/_deps/curl-src/CMake/CurlTests.c:214:11: warning: nested extern declaration of ‘IoctlSocket’ [-Wnested-externs]
+/home/adri/Documents/openUItest/backend/build/_deps/curl-src/CMake/CurlTests.c:214:26: error: ‘FIONBIO’ undeclared (first use in this function)
+  214 |   if(0 != IoctlSocket(0, FIONBIO, &flags))
+      |                          ^~~~~~~
+/home/adri/Documents/openUItest/backend/build/_deps/curl-src/CMake/CurlTests.c:214:26: note: each undeclared identifier is reported only once for each function it appears in
+gmake[1]: *** [CMakeFiles/cmTC_6c1e5.dir/build.make:78: CMakeFiles/cmTC_6c1e5.dir/CurlTests.c.o] Error 1
+gmake[1]: Leaving directory '/home/adri/Documents/openUItest/backend/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_6c1e5/fast] Error 2
+
+
+Performing Test HAVE_IOCTLSOCKET_FIONBIO failed with the following output:
+Change Dir: '/home/adri/Documents/openUItest/backend/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /home/adri/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_96184/fast
+/usr/bin/gmake  -f CMakeFiles/cmTC_96184.dir/build.make CMakeFiles/cmTC_96184.dir/build
+gmake[1]: Entering directory '/home/adri/Documents/openUItest/backend/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_96184.dir/CurlTests.c.o
+/usr/bin/cc   -W -Wall -pedantic -Wbad-function-cast -Wconversion -Winline -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-long-long -Wno-multichar -Wpointer-arith -Wshadow -Wsign-compare -Wundef -Wunused -Wwrite-strings -Waddress -Wattributes -Wcast-align -Wdeclaration-after-statement -Wdiv-by-zero -Wempty-body -Wendif-labels -Wfloat-equal -Wformat-security -Wignored-qualifiers -Wmissing-field-initializers -Wmissing-noreturn -Wno-format-nonliteral -Wno-system-headers -Wold-style-definition -Wredundant-decls -Wsign-conversion -Wno-error=sign-conversion -Wstrict-prototypes -Wtype-limits -Wunreachable-code -Wunused-parameter -Wvla -Wclobbered -Wmissing-parameter-type -Wold-style-declaration -Wstrict-aliasing=3 -Wtrampolines -Wformat=2 -Warray-bounds=2 -ftree-vrp -Wduplicated-cond -Wnull-dereference -fdelete-null-pointer-checks -Wshift-negative-value -Wshift-overflow=2 -Walloc-zero -Wduplicated-branches -Wformat-overflow=2 -Wformat-truncation=2 -Wimplicit-fallthrough -Wrestrict -Warith-conversion -Wdouble-promotion -Wenum-conversion -Wpragmas -Wunused-const-variable -DHAVE_IOCTLSOCKET_FIONBIO  -DHAVE_SYS_WAIT_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_PARAM_H -DHAVE_SYS_POLL_H -DHAVE_SYS_RESOURCE_H -DHAVE_SYS_SELECT_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TIME_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UN_H -DHAVE_SYS_XATTR_H -DHAVE_ARPA_INET_H -DHAVE_FCNTL_H -DHAVE_IFADDRS_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_NET_IF_H -DHAVE_NETDB_H -DHAVE_NETINET_IN_H -DHAVE_NETINET_TCP_H -DHAVE_NETINET_UDP_H -DHAVE_POLL_H -DHAVE_PWD_H -DHAVE_STDATOMIC_H -DHAVE_STDBOOL_H -DHAVE_STRINGS_H -DHAVE_TERMIO_H -DHAVE_TERMIOS_H -DHAVE_UNISTD_H -DHAVE_UTIME_H -o CMakeFiles/cmTC_96184.dir/CurlTests.c.o -c /home/adri/Documents/openUItest/backend/build/_deps/curl-src/CMake/CurlTests.c
+/home/adri/Documents/openUItest/backend/build/_deps/curl-src/CMake/CurlTests.c: In function ‘main’:
+/home/adri/Documents/openUItest/backend/build/_deps/curl-src/CMake/CurlTests.c:232:11: warning: implicit declaration of function ‘ioctlsocket’ [-Wimplicit-function-declaration]
+  232 |   if(0 != ioctlsocket(0, FIONBIO, &flags))
+      |           ^~~~~~~~~~~
+/home/adri/Documents/openUItest/backend/build/_deps/curl-src/CMake/CurlTests.c:232:11: warning: nested extern declaration of ‘ioctlsocket’ [-Wnested-externs]
+/home/adri/Documents/openUItest/backend/build/_deps/curl-src/CMake/CurlTests.c:232:26: error: ‘FIONBIO’ undeclared (first use in this function)
+  232 |   if(0 != ioctlsocket(0, FIONBIO, &flags))
+      |                          ^~~~~~~
+/home/adri/Documents/openUItest/backend/build/_deps/curl-src/CMake/CurlTests.c:232:26: note: each undeclared identifier is reported only once for each function it appears in
+gmake[1]: *** [CMakeFiles/cmTC_96184.dir/build.make:78: CMakeFiles/cmTC_96184.dir/CurlTests.c.o] Error 1
+gmake[1]: Leaving directory '/home/adri/Documents/openUItest/backend/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_96184/fast] Error 2
+
+
+Performing Test HAVE_SETSOCKOPT_SO_NONBLOCK failed with the following output:
+Change Dir: '/home/adri/Documents/openUItest/backend/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /home/adri/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_0f374/fast
+/usr/bin/gmake  -f CMakeFiles/cmTC_0f374.dir/build.make CMakeFiles/cmTC_0f374.dir/build
+gmake[1]: Entering directory '/home/adri/Documents/openUItest/backend/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0f374.dir/CurlTests.c.o
+/usr/bin/cc   -W -Wall -pedantic -Wbad-function-cast -Wconversion -Winline -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-long-long -Wno-multichar -Wpointer-arith -Wshadow -Wsign-compare -Wundef -Wunused -Wwrite-strings -Waddress -Wattributes -Wcast-align -Wdeclaration-after-statement -Wdiv-by-zero -Wempty-body -Wendif-labels -Wfloat-equal -Wformat-security -Wignored-qualifiers -Wmissing-field-initializers -Wmissing-noreturn -Wno-format-nonliteral -Wno-system-headers -Wold-style-definition -Wredundant-decls -Wsign-conversion -Wno-error=sign-conversion -Wstrict-prototypes -Wtype-limits -Wunreachable-code -Wunused-parameter -Wvla -Wclobbered -Wmissing-parameter-type -Wold-style-declaration -Wstrict-aliasing=3 -Wtrampolines -Wformat=2 -Warray-bounds=2 -ftree-vrp -Wduplicated-cond -Wnull-dereference -fdelete-null-pointer-checks -Wshift-negative-value -Wshift-overflow=2 -Walloc-zero -Wduplicated-branches -Wformat-overflow=2 -Wformat-truncation=2 -Wimplicit-fallthrough -Wrestrict -Warith-conversion -Wdouble-promotion -Wenum-conversion -Wpragmas -Wunused-const-variable -DHAVE_SETSOCKOPT_SO_NONBLOCK  -DHAVE_SYS_WAIT_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_PARAM_H -DHAVE_SYS_POLL_H -DHAVE_SYS_RESOURCE_H -DHAVE_SYS_SELECT_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TIME_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UN_H -DHAVE_SYS_XATTR_H -DHAVE_ARPA_INET_H -DHAVE_FCNTL_H -DHAVE_IFADDRS_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_NET_IF_H -DHAVE_NETDB_H -DHAVE_NETINET_IN_H -DHAVE_NETINET_TCP_H -DHAVE_NETINET_UDP_H -DHAVE_POLL_H -DHAVE_PWD_H -DHAVE_STDATOMIC_H -DHAVE_STDBOOL_H -DHAVE_STRINGS_H -DHAVE_TERMIO_H -DHAVE_TERMIOS_H -DHAVE_UNISTD_H -DHAVE_UTIME_H -o CMakeFiles/cmTC_0f374.dir/CurlTests.c.o -c /home/adri/Documents/openUItest/backend/build/_deps/curl-src/CMake/CurlTests.c
+/home/adri/Documents/openUItest/backend/build/_deps/curl-src/CMake/CurlTests.c: In function ‘main’:
+/home/adri/Documents/openUItest/backend/build/_deps/curl-src/CMake/CurlTests.c:314:37: error: ‘SO_NONBLOCK’ undeclared (first use in this function); did you mean ‘SOCK_NONBLOCK’?
+  314 |   if(0 != setsockopt(0, SOL_SOCKET, SO_NONBLOCK, 0, 0))
+      |                                     ^~~~~~~~~~~
+      |                                     SOCK_NONBLOCK
+/home/adri/Documents/openUItest/backend/build/_deps/curl-src/CMake/CurlTests.c:314:37: note: each undeclared identifier is reported only once for each function it appears in
+gmake[1]: *** [CMakeFiles/cmTC_0f374.dir/build.make:78: CMakeFiles/cmTC_0f374.dir/CurlTests.c.o] Error 1
+gmake[1]: Leaving directory '/home/adri/Documents/openUItest/backend/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_0f374/fast] Error 2
+
+
+Performing Test HAVE_O_NONBLOCK failed with the following output:
+Change Dir: '/home/adri/Documents/openUItest/backend/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /home/adri/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_04807/fast
+/usr/bin/gmake  -f CMakeFiles/cmTC_04807.dir/build.make CMakeFiles/cmTC_04807.dir/build
+gmake[1]: Entering directory '/home/adri/Documents/openUItest/backend/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_04807.dir/CurlTests.c.o
+/usr/bin/cc   -W -Wall -pedantic -Wbad-function-cast -Wconversion -Winline -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-long-long -Wno-multichar -Wpointer-arith -Wshadow -Wsign-compare -Wundef -Wunused -Wwrite-strings -Waddress -Wattributes -Wcast-align -Wdeclaration-after-statement -Wdiv-by-zero -Wempty-body -Wendif-labels -Wfloat-equal -Wformat-security -Wignored-qualifiers -Wmissing-field-initializers -Wmissing-noreturn -Wno-format-nonliteral -Wno-system-headers -Wold-style-definition -Wredundant-decls -Wsign-conversion -Wno-error=sign-conversion -Wstrict-prototypes -Wtype-limits -Wunreachable-code -Wunused-parameter -Wvla -Wclobbered -Wmissing-parameter-type -Wold-style-declaration -Wstrict-aliasing=3 -Wtrampolines -Wformat=2 -Warray-bounds=2 -ftree-vrp -Wduplicated-cond -Wnull-dereference -fdelete-null-pointer-checks -Wshift-negative-value -Wshift-overflow=2 -Walloc-zero -Wduplicated-branches -Wformat-overflow=2 -Wformat-truncation=2 -Wimplicit-fallthrough -Wrestrict -Warith-conversion -Wdouble-promotion -Wenum-conversion -Wpragmas -Wunused-const-variable -DHAVE_O_NONBLOCK  -DHAVE_SYS_WAIT_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_PARAM_H -DHAVE_SYS_POLL_H -DHAVE_SYS_RESOURCE_H -DHAVE_SYS_SELECT_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TIME_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UN_H -DHAVE_SYS_XATTR_H -DHAVE_ARPA_INET_H -DHAVE_FCNTL_H -DHAVE_IFADDRS_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_NET_IF_H -DHAVE_NETDB_H -DHAVE_NETINET_IN_H -DHAVE_NETINET_TCP_H -DHAVE_NETINET_UDP_H -DHAVE_POLL_H -DHAVE_PWD_H -DHAVE_STDATOMIC_H -DHAVE_STDBOOL_H -DHAVE_STRINGS_H -DHAVE_TERMIO_H -DHAVE_TERMIOS_H -DHAVE_UNISTD_H -DHAVE_UTIME_H -o CMakeFiles/cmTC_04807.dir/CurlTests.c.o -c /home/adri/Documents/openUItest/backend/build/_deps/curl-src/CMake/CurlTests.c
+/home/adri/Documents/openUItest/backend/build/_deps/curl-src/CMake/CurlTests.c:431: warning: ISO C forbids an empty translation unit [-Wpedantic]
+Linking C executable cmTC_04807
+/home/adri/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_04807.dir/link.txt --verbose=1
+/usr/bin/cc   -W -Wall -pedantic -Wbad-function-cast -Wconversion -Winline -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-long-long -Wno-multichar -Wpointer-arith -Wshadow -Wsign-compare -Wundef -Wunused -Wwrite-strings -Waddress -Wattributes -Wcast-align -Wdeclaration-after-statement -Wdiv-by-zero -Wempty-body -Wendif-labels -Wfloat-equal -Wformat-security -Wignored-qualifiers -Wmissing-field-initializers -Wmissing-noreturn -Wno-format-nonliteral -Wno-system-headers -Wold-style-definition -Wredundant-decls -Wsign-conversion -Wno-error=sign-conversion -Wstrict-prototypes -Wtype-limits -Wunreachable-code -Wunused-parameter -Wvla -Wclobbered -Wmissing-parameter-type -Wold-style-declaration -Wstrict-aliasing=3 -Wtrampolines -Wformat=2 -Warray-bounds=2 -ftree-vrp -Wduplicated-cond -Wnull-dereference -fdelete-null-pointer-checks -Wshift-negative-value -Wshift-overflow=2 -Walloc-zero -Wduplicated-branches -Wformat-overflow=2 -Wformat-truncation=2 -Wimplicit-fallthrough -Wrestrict -Warith-conversion -Wdouble-promotion -Wenum-conversion -Wpragmas -Wunused-const-variable -DHAVE_O_NONBLOCK  -DHAVE_SYS_WAIT_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_PARAM_H -DHAVE_SYS_POLL_H -DHAVE_SYS_RESOURCE_H -DHAVE_SYS_SELECT_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TIME_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UN_H -DHAVE_SYS_XATTR_H -DHAVE_ARPA_INET_H -DHAVE_FCNTL_H -DHAVE_IFADDRS_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_NET_IF_H -DHAVE_NETDB_H -DHAVE_NETINET_IN_H -DHAVE_NETINET_TCP_H -DHAVE_NETINET_UDP_H -DHAVE_POLL_H -DHAVE_PWD_H -DHAVE_STDATOMIC_H -DHAVE_STDBOOL_H -DHAVE_STRINGS_H -DHAVE_TERMIO_H -DHAVE_TERMIOS_H -DHAVE_UNISTD_H -DHAVE_UTIME_H CMakeFiles/cmTC_04807.dir/CurlTests.c.o -o cmTC_04807
+/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+(.text+0x1b): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_04807.dir/build.make:99: cmTC_04807] Error 1
+gmake[1]: Leaving directory '/home/adri/Documents/openUItest/backend/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_04807/fast] Error 2
+
+
+Performing Test HAVE_GETHOSTBYNAME_R_3 failed with the following output:
+Change Dir: '/home/adri/Documents/openUItest/backend/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /home/adri/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_1c51e/fast
+/usr/bin/gmake  -f CMakeFiles/cmTC_1c51e.dir/build.make CMakeFiles/cmTC_1c51e.dir/build
+gmake[1]: Entering directory '/home/adri/Documents/openUItest/backend/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1c51e.dir/CurlTests.c.o
+/usr/bin/cc   -W -Wall -pedantic -Wbad-function-cast -Wconversion -Winline -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-long-long -Wno-multichar -Wpointer-arith -Wshadow -Wsign-compare -Wundef -Wunused -Wwrite-strings -Waddress -Wattributes -Wcast-align -Wdeclaration-after-statement -Wdiv-by-zero -Wempty-body -Wendif-labels -Wfloat-equal -Wformat-security -Wignored-qualifiers -Wmissing-field-initializers -Wmissing-noreturn -Wno-format-nonliteral -Wno-system-headers -Wold-style-definition -Wredundant-decls -Wsign-conversion -Wno-error=sign-conversion -Wstrict-prototypes -Wtype-limits -Wunreachable-code -Wunused-parameter -Wvla -Wclobbered -Wmissing-parameter-type -Wold-style-declaration -Wstrict-aliasing=3 -Wtrampolines -Wformat=2 -Warray-bounds=2 -ftree-vrp -Wduplicated-cond -Wnull-dereference -fdelete-null-pointer-checks -Wshift-negative-value -Wshift-overflow=2 -Walloc-zero -Wduplicated-branches -Wformat-overflow=2 -Wformat-truncation=2 -Wimplicit-fallthrough -Wrestrict -Warith-conversion -Wdouble-promotion -Wenum-conversion -Wpragmas -Wunused-const-variable -DHAVE_GETHOSTBYNAME_R_3  -DHAVE_SYS_WAIT_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_PARAM_H -DHAVE_SYS_POLL_H -DHAVE_SYS_RESOURCE_H -DHAVE_SYS_SELECT_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TIME_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UN_H -DHAVE_SYS_XATTR_H -DHAVE_ARPA_INET_H -DHAVE_FCNTL_H -DHAVE_IFADDRS_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_NET_IF_H -DHAVE_NETDB_H -DHAVE_NETINET_IN_H -DHAVE_NETINET_TCP_H -DHAVE_NETINET_UDP_H -DHAVE_POLL_H -DHAVE_PWD_H -DHAVE_STDATOMIC_H -DHAVE_STDBOOL_H -DHAVE_STRINGS_H -DHAVE_TERMIO_H -DHAVE_TERMIOS_H -DHAVE_UNISTD_H -DHAVE_UTIME_H -o CMakeFiles/cmTC_1c51e.dir/CurlTests.c.o -c /home/adri/Documents/openUItest/backend/build/_deps/curl-src/CMake/CurlTests.c
+/home/adri/Documents/openUItest/backend/build/_deps/curl-src/CMake/CurlTests.c: In function ‘main’:
+/home/adri/Documents/openUItest/backend/build/_deps/curl-src/CMake/CurlTests.c:73:19: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+   73 |   char *address = "example.com";
+      |                   ^~~~~~~~~~~~~
+/home/adri/Documents/openUItest/backend/build/_deps/curl-src/CMake/CurlTests.c:80:23: error: storage size of ‘hdata’ isn’t known
+   80 |   struct hostent_data hdata;
+      |                       ^~~~~
+/home/adri/Documents/openUItest/backend/build/_deps/curl-src/CMake/CurlTests.c:92:8: error: too few arguments to function ‘gethostbyname_r’
+   92 |   rc = gethostbyname_r(address, &h, &hdata);
+      |        ^~~~~~~~~~~~~~~
+In file included from /home/adri/Documents/openUItest/backend/build/_deps/curl-src/CMake/CurlTests.c:70:
+/usr/include/netdb.h:177:12: note: declared here
+  177 | extern int gethostbyname_r (const char *__restrict __name,
+      |            ^~~~~~~~~~~~~~~
+/home/adri/Documents/openUItest/backend/build/_deps/curl-src/CMake/CurlTests.c:80:23: warning: unused variable ‘hdata’ [-Wunused-variable]
+   80 |   struct hostent_data hdata;
+      |                       ^~~~~
+gmake[1]: *** [CMakeFiles/cmTC_1c51e.dir/build.make:78: CMakeFiles/cmTC_1c51e.dir/CurlTests.c.o] Error 1
+gmake[1]: Leaving directory '/home/adri/Documents/openUItest/backend/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_1c51e/fast] Error 2
+
+
+Performing Test HAVE_GETHOSTBYNAME_R_5 failed with the following output:
+Change Dir: '/home/adri/Documents/openUItest/backend/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /home/adri/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_ddb48/fast
+/usr/bin/gmake  -f CMakeFiles/cmTC_ddb48.dir/build.make CMakeFiles/cmTC_ddb48.dir/build
+gmake[1]: Entering directory '/home/adri/Documents/openUItest/backend/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ddb48.dir/CurlTests.c.o
+/usr/bin/cc   -W -Wall -pedantic -Wbad-function-cast -Wconversion -Winline -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-long-long -Wno-multichar -Wpointer-arith -Wshadow -Wsign-compare -Wundef -Wunused -Wwrite-strings -Waddress -Wattributes -Wcast-align -Wdeclaration-after-statement -Wdiv-by-zero -Wempty-body -Wendif-labels -Wfloat-equal -Wformat-security -Wignored-qualifiers -Wmissing-field-initializers -Wmissing-noreturn -Wno-format-nonliteral -Wno-system-headers -Wold-style-definition -Wredundant-decls -Wsign-conversion -Wno-error=sign-conversion -Wstrict-prototypes -Wtype-limits -Wunreachable-code -Wunused-parameter -Wvla -Wclobbered -Wmissing-parameter-type -Wold-style-declaration -Wstrict-aliasing=3 -Wtrampolines -Wformat=2 -Warray-bounds=2 -ftree-vrp -Wduplicated-cond -Wnull-dereference -fdelete-null-pointer-checks -Wshift-negative-value -Wshift-overflow=2 -Walloc-zero -Wduplicated-branches -Wformat-overflow=2 -Wformat-truncation=2 -Wimplicit-fallthrough -Wrestrict -Warith-conversion -Wdouble-promotion -Wenum-conversion -Wpragmas -Wunused-const-variable -DHAVE_GETHOSTBYNAME_R_5  -DHAVE_SYS_WAIT_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_PARAM_H -DHAVE_SYS_POLL_H -DHAVE_SYS_RESOURCE_H -DHAVE_SYS_SELECT_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TIME_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UN_H -DHAVE_SYS_XATTR_H -DHAVE_ARPA_INET_H -DHAVE_FCNTL_H -DHAVE_IFADDRS_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_NET_IF_H -DHAVE_NETDB_H -DHAVE_NETINET_IN_H -DHAVE_NETINET_TCP_H -DHAVE_NETINET_UDP_H -DHAVE_POLL_H -DHAVE_PWD_H -DHAVE_STDATOMIC_H -DHAVE_STDBOOL_H -DHAVE_STRINGS_H -DHAVE_TERMIO_H -DHAVE_TERMIOS_H -DHAVE_UNISTD_H -DHAVE_UTIME_H -o CMakeFiles/cmTC_ddb48.dir/CurlTests.c.o -c /home/adri/Documents/openUItest/backend/build/_deps/curl-src/CMake/CurlTests.c
+/home/adri/Documents/openUItest/backend/build/_deps/curl-src/CMake/CurlTests.c: In function ‘main’:
+/home/adri/Documents/openUItest/backend/build/_deps/curl-src/CMake/CurlTests.c:73:19: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+   73 |   char *address = "example.com";
+      |                   ^~~~~~~~~~~~~
+/home/adri/Documents/openUItest/backend/build/_deps/curl-src/CMake/CurlTests.c:95:51: warning: passing argument 5 of ‘gethostbyname_r’ from incompatible pointer type [-Wincompatible-pointer-types]
+   95 |   rc = gethostbyname_r(address, &h, buffer, 8192, &h_errnop);
+      |                                                   ^~~~~~~~~
+      |                                                   |
+      |                                                   int *
+In file included from /home/adri/Documents/openUItest/backend/build/_deps/curl-src/CMake/CurlTests.c:70:
+/usr/include/netdb.h:180:57: note: expected ‘struct hostent ** restrict’ but argument is of type ‘int *’
+  180 |                             struct hostent **__restrict __result,
+      |                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~
+/home/adri/Documents/openUItest/backend/build/_deps/curl-src/CMake/CurlTests.c:95:8: error: too few arguments to function ‘gethostbyname_r’
+   95 |   rc = gethostbyname_r(address, &h, buffer, 8192, &h_errnop);
+      |        ^~~~~~~~~~~~~~~
+In file included from /home/adri/Documents/openUItest/backend/build/_deps/curl-src/CMake/CurlTests.c:70:
+/usr/include/netdb.h:177:12: note: declared here
+  177 | extern int gethostbyname_r (const char *__restrict __name,
+      |            ^~~~~~~~~~~~~~~
+gmake[1]: *** [CMakeFiles/cmTC_ddb48.dir/build.make:78: CMakeFiles/cmTC_ddb48.dir/CurlTests.c.o] Error 1
+gmake[1]: Leaving directory '/home/adri/Documents/openUItest/backend/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_ddb48/fast] Error 2
+
+
+Performing Test HAVE_GETHOSTBYNAME_R_3_REENTRANT failed with the following output:
+Change Dir: '/home/adri/Documents/openUItest/backend/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /home/adri/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_efefa/fast
+/usr/bin/gmake  -f CMakeFiles/cmTC_efefa.dir/build.make CMakeFiles/cmTC_efefa.dir/build
+gmake[1]: Entering directory '/home/adri/Documents/openUItest/backend/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_efefa.dir/CurlTests.c.o
+/usr/bin/cc   -W -Wall -pedantic -Wbad-function-cast -Wconversion -Winline -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-long-long -Wno-multichar -Wpointer-arith -Wshadow -Wsign-compare -Wundef -Wunused -Wwrite-strings -Waddress -Wattributes -Wcast-align -Wdeclaration-after-statement -Wdiv-by-zero -Wempty-body -Wendif-labels -Wfloat-equal -Wformat-security -Wignored-qualifiers -Wmissing-field-initializers -Wmissing-noreturn -Wno-format-nonliteral -Wno-system-headers -Wold-style-definition -Wredundant-decls -Wsign-conversion -Wno-error=sign-conversion -Wstrict-prototypes -Wtype-limits -Wunreachable-code -Wunused-parameter -Wvla -Wclobbered -Wmissing-parameter-type -Wold-style-declaration -Wstrict-aliasing=3 -Wtrampolines -Wformat=2 -Warray-bounds=2 -ftree-vrp -Wduplicated-cond -Wnull-dereference -fdelete-null-pointer-checks -Wshift-negative-value -Wshift-overflow=2 -Walloc-zero -Wduplicated-branches -Wformat-overflow=2 -Wformat-truncation=2 -Wimplicit-fallthrough -Wrestrict -Warith-conversion -Wdouble-promotion -Wenum-conversion -Wpragmas -Wunused-const-variable -DHAVE_GETHOSTBYNAME_R_3_REENTRANT  -DHAVE_SYS_WAIT_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_PARAM_H -DHAVE_SYS_POLL_H -DHAVE_SYS_RESOURCE_H -DHAVE_SYS_SELECT_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TIME_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UN_H -DHAVE_SYS_XATTR_H -DHAVE_ARPA_INET_H -DHAVE_FCNTL_H -DHAVE_IFADDRS_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_NET_IF_H -DHAVE_NETDB_H -DHAVE_NETINET_IN_H -DHAVE_NETINET_TCP_H -DHAVE_NETINET_UDP_H -DHAVE_POLL_H -DHAVE_PWD_H -DHAVE_STDATOMIC_H -DHAVE_STDBOOL_H -DHAVE_STRINGS_H -DHAVE_TERMIO_H -DHAVE_TERMIOS_H -DHAVE_UNISTD_H -DHAVE_UTIME_H -o CMakeFiles/cmTC_efefa.dir/CurlTests.c.o -c /home/adri/Documents/openUItest/backend/build/_deps/curl-src/CMake/CurlTests.c
+/home/adri/Documents/openUItest/backend/build/_deps/curl-src/CMake/CurlTests.c: In function ‘main’:
+/home/adri/Documents/openUItest/backend/build/_deps/curl-src/CMake/CurlTests.c:73:19: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+   73 |   char *address = "example.com";
+      |                   ^~~~~~~~~~~~~
+/home/adri/Documents/openUItest/backend/build/_deps/curl-src/CMake/CurlTests.c:80:23: error: storage size of ‘hdata’ isn’t known
+   80 |   struct hostent_data hdata;
+      |                       ^~~~~
+/home/adri/Documents/openUItest/backend/build/_deps/curl-src/CMake/CurlTests.c:92:8: error: too few arguments to function ‘gethostbyname_r’
+   92 |   rc = gethostbyname_r(address, &h, &hdata);
+      |        ^~~~~~~~~~~~~~~
+In file included from /home/adri/Documents/openUItest/backend/build/_deps/curl-src/CMake/CurlTests.c:70:
+/usr/include/netdb.h:177:12: note: declared here
+  177 | extern int gethostbyname_r (const char *__restrict __name,
+      |            ^~~~~~~~~~~~~~~
+/home/adri/Documents/openUItest/backend/build/_deps/curl-src/CMake/CurlTests.c:80:23: warning: unused variable ‘hdata’ [-Wunused-variable]
+   80 |   struct hostent_data hdata;
+      |                       ^~~~~
+gmake[1]: *** [CMakeFiles/cmTC_efefa.dir/build.make:78: CMakeFiles/cmTC_efefa.dir/CurlTests.c.o] Error 1
+gmake[1]: Leaving directory '/home/adri/Documents/openUItest/backend/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_efefa/fast] Error 2
+
+
+Performing Test HAVE_GETHOSTBYNAME_R_5_REENTRANT failed with the following output:
+Change Dir: '/home/adri/Documents/openUItest/backend/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /home/adri/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_40bbc/fast
+/usr/bin/gmake  -f CMakeFiles/cmTC_40bbc.dir/build.make CMakeFiles/cmTC_40bbc.dir/build
+gmake[1]: Entering directory '/home/adri/Documents/openUItest/backend/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_40bbc.dir/CurlTests.c.o
+/usr/bin/cc   -W -Wall -pedantic -Wbad-function-cast -Wconversion -Winline -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-long-long -Wno-multichar -Wpointer-arith -Wshadow -Wsign-compare -Wundef -Wunused -Wwrite-strings -Waddress -Wattributes -Wcast-align -Wdeclaration-after-statement -Wdiv-by-zero -Wempty-body -Wendif-labels -Wfloat-equal -Wformat-security -Wignored-qualifiers -Wmissing-field-initializers -Wmissing-noreturn -Wno-format-nonliteral -Wno-system-headers -Wold-style-definition -Wredundant-decls -Wsign-conversion -Wno-error=sign-conversion -Wstrict-prototypes -Wtype-limits -Wunreachable-code -Wunused-parameter -Wvla -Wclobbered -Wmissing-parameter-type -Wold-style-declaration -Wstrict-aliasing=3 -Wtrampolines -Wformat=2 -Warray-bounds=2 -ftree-vrp -Wduplicated-cond -Wnull-dereference -fdelete-null-pointer-checks -Wshift-negative-value -Wshift-overflow=2 -Walloc-zero -Wduplicated-branches -Wformat-overflow=2 -Wformat-truncation=2 -Wimplicit-fallthrough -Wrestrict -Warith-conversion -Wdouble-promotion -Wenum-conversion -Wpragmas -Wunused-const-variable -DHAVE_GETHOSTBYNAME_R_5_REENTRANT  -DHAVE_SYS_WAIT_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_PARAM_H -DHAVE_SYS_POLL_H -DHAVE_SYS_RESOURCE_H -DHAVE_SYS_SELECT_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TIME_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UN_H -DHAVE_SYS_XATTR_H -DHAVE_ARPA_INET_H -DHAVE_FCNTL_H -DHAVE_IFADDRS_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_NET_IF_H -DHAVE_NETDB_H -DHAVE_NETINET_IN_H -DHAVE_NETINET_TCP_H -DHAVE_NETINET_UDP_H -DHAVE_POLL_H -DHAVE_PWD_H -DHAVE_STDATOMIC_H -DHAVE_STDBOOL_H -DHAVE_STRINGS_H -DHAVE_TERMIO_H -DHAVE_TERMIOS_H -DHAVE_UNISTD_H -DHAVE_UTIME_H -o CMakeFiles/cmTC_40bbc.dir/CurlTests.c.o -c /home/adri/Documents/openUItest/backend/build/_deps/curl-src/CMake/CurlTests.c
+/home/adri/Documents/openUItest/backend/build/_deps/curl-src/CMake/CurlTests.c: In function ‘main’:
+/home/adri/Documents/openUItest/backend/build/_deps/curl-src/CMake/CurlTests.c:73:19: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+   73 |   char *address = "example.com";
+      |                   ^~~~~~~~~~~~~
+/home/adri/Documents/openUItest/backend/build/_deps/curl-src/CMake/CurlTests.c:95:51: warning: passing argument 5 of ‘gethostbyname_r’ from incompatible pointer type [-Wincompatible-pointer-types]
+   95 |   rc = gethostbyname_r(address, &h, buffer, 8192, &h_errnop);
+      |                                                   ^~~~~~~~~
+      |                                                   |
+      |                                                   int *
+In file included from /home/adri/Documents/openUItest/backend/build/_deps/curl-src/CMake/CurlTests.c:70:
+/usr/include/netdb.h:180:57: note: expected ‘struct hostent ** restrict’ but argument is of type ‘int *’
+  180 |                             struct hostent **__restrict __result,
+      |                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~
+/home/adri/Documents/openUItest/backend/build/_deps/curl-src/CMake/CurlTests.c:95:8: error: too few arguments to function ‘gethostbyname_r’
+   95 |   rc = gethostbyname_r(address, &h, buffer, 8192, &h_errnop);
+      |        ^~~~~~~~~~~~~~~
+In file included from /home/adri/Documents/openUItest/backend/build/_deps/curl-src/CMake/CurlTests.c:70:
+/usr/include/netdb.h:177:12: note: declared here
+  177 | extern int gethostbyname_r (const char *__restrict __name,
+      |            ^~~~~~~~~~~~~~~
+gmake[1]: *** [CMakeFiles/cmTC_40bbc.dir/build.make:78: CMakeFiles/cmTC_40bbc.dir/CurlTests.c.o] Error 1
+gmake[1]: Leaving directory '/home/adri/Documents/openUItest/backend/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_40bbc/fast] Error 2
+
+
+Performing Test HAVE_GLIBC_STRERROR_R failed with the following output:
+Change Dir: '/home/adri/Documents/openUItest/backend/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /home/adri/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_51cc2/fast
+/usr/bin/gmake  -f CMakeFiles/cmTC_51cc2.dir/build.make CMakeFiles/cmTC_51cc2.dir/build
+gmake[1]: Entering directory '/home/adri/Documents/openUItest/backend/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_51cc2.dir/CurlTests.c.o
+/usr/bin/cc   -W -Wall -pedantic -Wbad-function-cast -Wconversion -Winline -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-long-long -Wno-multichar -Wpointer-arith -Wshadow -Wsign-compare -Wundef -Wunused -Wwrite-strings -Waddress -Wattributes -Wcast-align -Wdeclaration-after-statement -Wdiv-by-zero -Wempty-body -Wendif-labels -Wfloat-equal -Wformat-security -Wignored-qualifiers -Wmissing-field-initializers -Wmissing-noreturn -Wno-format-nonliteral -Wno-system-headers -Wold-style-definition -Wredundant-decls -Wsign-conversion -Wno-error=sign-conversion -Wstrict-prototypes -Wtype-limits -Wunreachable-code -Wunused-parameter -Wvla -Wclobbered -Wmissing-parameter-type -Wold-style-declaration -Wstrict-aliasing=3 -Wtrampolines -Wformat=2 -Warray-bounds=2 -ftree-vrp -Wduplicated-cond -Wnull-dereference -fdelete-null-pointer-checks -Wshift-negative-value -Wshift-overflow=2 -Walloc-zero -Wduplicated-branches -Wformat-overflow=2 -Wformat-truncation=2 -Wimplicit-fallthrough -Wrestrict -Warith-conversion -Wdouble-promotion -Wenum-conversion -Wpragmas -Wunused-const-variable -DHAVE_GLIBC_STRERROR_R  -DHAVE_SYS_WAIT_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_PARAM_H -DHAVE_SYS_POLL_H -DHAVE_SYS_RESOURCE_H -DHAVE_SYS_SELECT_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TIME_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UN_H -DHAVE_SYS_XATTR_H -DHAVE_ARPA_INET_H -DHAVE_FCNTL_H -DHAVE_IFADDRS_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_NET_IF_H -DHAVE_NETDB_H -DHAVE_NETINET_IN_H -DHAVE_NETINET_TCP_H -DHAVE_NETINET_UDP_H -DHAVE_POLL_H -DHAVE_PWD_H -DHAVE_STDATOMIC_H -DHAVE_STDBOOL_H -DHAVE_STRINGS_H -DHAVE_TERMIO_H -DHAVE_TERMIOS_H -DHAVE_UNISTD_H -DHAVE_UTIME_H -o CMakeFiles/cmTC_51cc2.dir/CurlTests.c.o -c /home/adri/Documents/openUItest/backend/build/_deps/curl-src/CMake/CurlTests.c
+/home/adri/Documents/openUItest/backend/build/_deps/curl-src/CMake/CurlTests.c:325:6: warning: no previous prototype for ‘check’ [-Wmissing-prototypes]
+  325 | void check(char c) {}
+      |      ^~~~~
+/home/adri/Documents/openUItest/backend/build/_deps/curl-src/CMake/CurlTests.c: In function ‘check’:
+/home/adri/Documents/openUItest/backend/build/_deps/curl-src/CMake/CurlTests.c:325:17: warning: unused parameter ‘c’ [-Wunused-parameter]
+  325 | void check(char c) {}
+      |            ~~~~~^
+/home/adri/Documents/openUItest/backend/build/_deps/curl-src/CMake/CurlTests.c: In function ‘main’:
+/home/adri/Documents/openUItest/backend/build/_deps/curl-src/CMake/CurlTests.c:331:51: error: subscripted value is neither array nor pointer nor vector
+  331 |   check(strerror_r(EACCES, buffer, sizeof(buffer))[0]);
+      |                                                   ^
+gmake[1]: *** [CMakeFiles/cmTC_51cc2.dir/build.make:78: CMakeFiles/cmTC_51cc2.dir/CurlTests.c.o] Error 1
+gmake[1]: Leaving directory '/home/adri/Documents/openUItest/backend/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_51cc2/fast] Error 2
+
+
+Performing Test HAVE_BUILTIN_AVAILABLE failed with the following output:
+Change Dir: '/home/adri/Documents/openUItest/backend/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /home/adri/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_12e16/fast
+/usr/bin/gmake  -f CMakeFiles/cmTC_12e16.dir/build.make CMakeFiles/cmTC_12e16.dir/build
+gmake[1]: Entering directory '/home/adri/Documents/openUItest/backend/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_12e16.dir/CurlTests.c.o
+/usr/bin/cc   -W -Wall -pedantic -Wbad-function-cast -Wconversion -Winline -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-long-long -Wno-multichar -Wpointer-arith -Wshadow -Wsign-compare -Wundef -Wunused -Wwrite-strings -Waddress -Wattributes -Wcast-align -Wdeclaration-after-statement -Wdiv-by-zero -Wempty-body -Wendif-labels -Wfloat-equal -Wformat-security -Wignored-qualifiers -Wmissing-field-initializers -Wmissing-noreturn -Wno-format-nonliteral -Wno-system-headers -Wold-style-definition -Wredundant-decls -Wsign-conversion -Wno-error=sign-conversion -Wstrict-prototypes -Wtype-limits -Wunreachable-code -Wunused-parameter -Wvla -Wclobbered -Wmissing-parameter-type -Wold-style-declaration -Wstrict-aliasing=3 -Wtrampolines -Wformat=2 -Warray-bounds=2 -ftree-vrp -Wduplicated-cond -Wnull-dereference -fdelete-null-pointer-checks -Wshift-negative-value -Wshift-overflow=2 -Walloc-zero -Wduplicated-branches -Wformat-overflow=2 -Wformat-truncation=2 -Wimplicit-fallthrough -Wrestrict -Warith-conversion -Wdouble-promotion -Wenum-conversion -Wpragmas -Wunused-const-variable -DHAVE_BUILTIN_AVAILABLE  -DHAVE_SYS_WAIT_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_PARAM_H -DHAVE_SYS_POLL_H -DHAVE_SYS_RESOURCE_H -DHAVE_SYS_SELECT_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TIME_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UN_H -DHAVE_SYS_XATTR_H -DHAVE_ARPA_INET_H -DHAVE_FCNTL_H -DHAVE_IFADDRS_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_NET_IF_H -DHAVE_NETDB_H -DHAVE_NETINET_IN_H -DHAVE_NETINET_TCP_H -DHAVE_NETINET_UDP_H -DHAVE_POLL_H -DHAVE_PWD_H -DHAVE_STDATOMIC_H -DHAVE_STDBOOL_H -DHAVE_STRINGS_H -DHAVE_TERMIO_H -DHAVE_TERMIOS_H -DHAVE_UNISTD_H -DHAVE_UTIME_H -o CMakeFiles/cmTC_12e16.dir/CurlTests.c.o -c /home/adri/Documents/openUItest/backend/build/_deps/curl-src/CMake/CurlTests.c
+/home/adri/Documents/openUItest/backend/build/_deps/curl-src/CMake/CurlTests.c: In function ‘main’:
+/home/adri/Documents/openUItest/backend/build/_deps/curl-src/CMake/CurlTests.c:383:6: warning: implicit declaration of function ‘__builtin_available’; did you mean ‘__builtin_scalbl’? [-Wimplicit-function-declaration]
+  383 |   if(__builtin_available(macOS 10.12, *)) {}
+      |      ^~~~~~~~~~~~~~~~~~~
+      |      __builtin_scalbl
+/home/adri/Documents/openUItest/backend/build/_deps/curl-src/CMake/CurlTests.c:383:6: warning: nested extern declaration of ‘__builtin_available’ [-Wnested-externs]
+/home/adri/Documents/openUItest/backend/build/_deps/curl-src/CMake/CurlTests.c:383:26: error: ‘macOS’ undeclared (first use in this function)
+  383 |   if(__builtin_available(macOS 10.12, *)) {}
+      |                          ^~~~~
+/home/adri/Documents/openUItest/backend/build/_deps/curl-src/CMake/CurlTests.c:383:26: note: each undeclared identifier is reported only once for each function it appears in
+/home/adri/Documents/openUItest/backend/build/_deps/curl-src/CMake/CurlTests.c:383:31: error: expected ‘)’ before numeric constant
+  383 |   if(__builtin_available(macOS 10.12, *)) {}
+      |                         ~     ^~~~~~
+      |                               )
+gmake[1]: *** [CMakeFiles/cmTC_12e16.dir/build.make:78: CMakeFiles/cmTC_12e16.dir/CurlTests.c.o] Error 1
+gmake[1]: Leaving directory '/home/adri/Documents/openUItest/backend/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_12e16/fast] Error 2
+
+
